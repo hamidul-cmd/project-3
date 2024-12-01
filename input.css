@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --white: #fff;
+    --black: #000;
+
+    --red_45: hsl(0, 100%, 45%);
+    --red_50: hsl(0, 100%, 50%);
+    --red_55: hsl(0, 100%, 55%);
+    --red_60: hsl(0, 100%, 60%);
+    --red_80: hsl(0, 100%, 80%);
+    --red_90: hsl(0, 100%, 90%);
+    --red_95: hsl(0, 100%, 95%);
+    --red_99: hsl(0, 100%, 99%);
+
+    --black_6: hsl(0, 0%, 6%);
+    --black_8: hsl(0, 0%, 8%);
+    --black_10: hsl(0, 0%, 10%);
+    --black_12: hsl(0, 0%, 12%);
+    --black_15: hsl(0, 0%, 15%);
+    --black_20: hsl(0, 0%, 20%);
+    --black_25: hsl(0, 0%, 25%);
+    --black_30: hsl(0, 0%, 30%);
+
+    --gray_60:hsl(0, 0%, 60%);
+    --gray_65:hsl(0, 0%, 65%);
+    --gray_70:hsl(0, 0%, 70%);
+    --gray_75:hsl(0, 0%, 75%);
+    --gray_90:hsl(240, 6%, 90%);
+    --gray_95:hsl(240, 8%, 95%);
+    --gray_97:hsl(240, 7%, 97%);
+    --gray_99:hsl(240, 20%, 99%);
+
+    --font_14_18: clamp(0.875rem, 0.20192307692307687rem + 0.7692307692307693vw, 1.125rem);
+    --font_14_18_mini: clamp(0.875rem, 0.8112745098039216rem + 0.261437908496732vw, 1.125rem);
+    --font_16_20: clamp(1rem, 0.9362745098039216rem + 0.261437908496732vw, 1.25rem);
+    --font_18_24: clamp(1.125rem, 1.0294117647058822rem + 0.39215686274509803vw, 1.5rem);
+    --font_18_22: clamp(1.125rem, 1.0612745098039216rem + 0.261437908496732vw, 1.375rem);
+    --font_24_48: clamp(1.5rem, 1.1176470588235294rem + 1.5686274509803921vw, 3rem);
+    --font_28_58: clamp(1.75rem, 1.2720588235294117rem + 1.9607843137254901vw, 3.625rem);
+    --font_24_38: clamp(1.5rem, 1.2769607843137256rem + 0.915032679738562vw, 2.375rem);
+    --font_24_40: clamp(1.5rem, 1.2450980392156863rem + 1.045751633986928vw, 2.5rem);
+}
+
+
+.faq__ans1.active {
+    height: fit-content;
+}
+.faq__ans2.active {
+    height: fit-content;
+}
+.faq__ans3.active {
+    height: fit-content;
+}
+.faq__ans4.active {
+    height: fit-content;
+}
+.faq__ans5.active {
+    height: fit-content;
+}
+.faq__ans6.active {
+    height: fit-content;
+}
+.faq__ans7.active {
+    height: fit-content;
+}
+.faq__ans8.active {
+    height: fit-content;
+}
+
+
+
+
+
+.icon1.active {
+    transform: rotate(180deg);
+}
+.icon2.active {
+    transform: rotate(180deg);
+}
+.icon3.active {
+    transform: rotate(180deg);
+}
+.icon4.active {
+    transform: rotate(180deg);
+}
+.icon5.active {
+    transform: rotate(180deg);
+}
+.icon6.active {
+    transform: rotate(180deg);
+}
+.icon7.active {
+    transform: rotate(180deg);
+}
+.icon8.active {
+    transform: rotate(180deg);
+}
